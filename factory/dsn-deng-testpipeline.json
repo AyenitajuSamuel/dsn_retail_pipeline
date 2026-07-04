@@ -1,0 +1,15 @@
+{
+	"name": "dsn-deng-testpipeline",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "986d8c4b-a226-4a3b-bb1e-23859b06520b",
+		"tenantId": "b199c000-9e04-4b69-a5c9-048484ddcd9b"
+	}
+}
