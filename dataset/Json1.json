@@ -11,7 +11,8 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "comments.json",
-				"folderPath": "staging"
+				"folderPath": "staging",
+				"container": "retail-data"
 			}
 		},
 		"schema": {}
