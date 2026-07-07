@@ -13,8 +13,28 @@
 				"fileName": "comments.json",
 				"folderPath": "staging",
 				"container": "retail-data"
-			}
+			},
+			"encodingName": "UTF-8"
 		},
-		"schema": {}
+		"schema": {
+			"type": "object",
+			"properties": {
+				"postId": {
+					"type": "integer"
+				},
+				"id": {
+					"type": "integer"
+				},
+				"name": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"body": {
+					"type": "string"
+				}
+			}
+		}
 	}
 }
